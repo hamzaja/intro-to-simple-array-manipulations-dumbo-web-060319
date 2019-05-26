@@ -29,7 +29,7 @@ def using_flatten(a)
   a.flatten
 end
 def using_delete( a, b)
-  a.delete(b)
+  a.delete_at(b)
 end
 
 
