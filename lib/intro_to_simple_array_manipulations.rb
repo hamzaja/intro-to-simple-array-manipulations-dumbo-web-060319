@@ -8,7 +8,7 @@ def using_pop(a)
   a.pop()
 end
 def pop_with_args(a , b)
-  a.pop()
+  a.pop(b)
 end
 def using_shift(a)
   a.shift
@@ -26,7 +26,7 @@ def using_uniq(a)
   a.uniq()
 end
 def using_flatten(a)
-  a.flatten
+  a.flatten()
 end
 def using_delete( a, b)
   a.delete_at(b)
