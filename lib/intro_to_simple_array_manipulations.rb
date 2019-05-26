@@ -26,7 +26,7 @@ def using_uniq(a)
   a.uniq()
 end
 def using_flatten(a)
-  a.faltten()
+  a.faltten
 end
 def using_delete( a, b)
   a.delete(b)
