@@ -11,4 +11,5 @@ def pop_with_args(a,b)
   a.pop(b)
 end
 def using_shift(a)
-  
+  a.shift
+end
