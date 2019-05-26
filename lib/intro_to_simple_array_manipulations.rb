@@ -7,8 +7,8 @@ end
 def using_pop(a)
   a.pop()
 end
-def pop_with_args(a,b)
-  a.pop(b)
+def pop_with_args(a)
+  a.pop()
 end
 def using_shift(a)
   a.shift
