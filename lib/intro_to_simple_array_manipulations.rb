@@ -1,3 +1,3 @@
-def using_unshift(n)
-  n.unshift
+def using_unshift(n , b)
+  n.unshift(b)
 end
